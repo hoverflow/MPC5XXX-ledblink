@@ -1,0 +1,18 @@
+-I"/usr/share/jrepo/github/MPC5XXX-ledblink/ledBlink/include"
+-I"/home/jonathan/apps/S32DS/S32DS/e200_ewl2/EWL_C/include"
+-I"/home/jonathan/apps/S32DS/S32DS/e200_ewl2/EWL_C/include/pa"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-DMPC563xM
+-DE200Z3
+-DDISABLE_SWT
+-DSPE_ENABLE
+-DMMU_CONFIG
+-O0
+-g3
+-mcpu=e200z3
+-specs=ewl_c9x_noio.specs
+-mbig
+-mvle
+-mregnames
+--sysroot="/home/jonathan/apps/S32DS/S32DS/e200_ewl2"

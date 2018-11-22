@@ -1,0 +1,16 @@
+core=MPC5634M_Z3_1
+coreType=MPC5634M_Z3
+eclipse.preferences.version=1
+flashSize=17f000
+flashStart=1000
+fpu=None
+io=noio
+language=c
+library=ewl_c9x
+pinSet=
+processor=MPC5634M
+productVersion=v2017.R1 b171018 
+ramSize=17800
+ramStart=40000000
+toolchainVersion=
+wizardVersion=1.0.0.201710181501
